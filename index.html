@@ -17,6 +17,7 @@ PE4: p.categorie , h1{} donne un format au titres h1 (tous) et aux paragraphes q
     <head>
         <title>le site de felix</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--pour s'adapter à la taille de l'écran de manière horizontale-->
         <link rel="stylesheet" href="recette.css"> <!-- pour appeler le document style-->
      
 
@@ -24,12 +25,14 @@ PE4: p.categorie , h1{} donne un format au titres h1 (tous) et aux paragraphes q
 
     <body>
 
-        <div class="categorie">
-            <p class="categorie">Recette</p>
-        </div>
-        
+            
         
         <div class="contenu">
+
+            <div class="categorie">
+                <p class="categorie">Recette</p>
+            </div>
+
             <h1 align="center"> Gateau au chocolat</h1> 
             
             <div class="ligne"></div>
@@ -70,49 +73,51 @@ PE4: p.categorie , h1{} donne un format au titres h1 (tous) et aux paragraphes q
                         elément list item (li)
                         -->
                     
-                    <div class="colonne1 colonne">
-                        <h2>Ingredients</h2>
-                                        
-                            <div class="bouton">
+                    <div>
+                        <div class="colonne1 colonne">
+                            <h2>Ingredients</h2>
+                                            
+                                <div class="bouton">
 
-                                <p>Elixir de balaine: 0,01grammes</p>
-                                <p>Poils de chauve: 20 unités</p>
-                                <p>Sang de licorne: 1 litre</p>
-                                <p>Chocolat noir: 200 grammes</p>
-                                <p>Farine de l'olympe: 500 grammes</p>
+                                    <p>Elixir de balaine: 0,01grammes</p>
+                                    <p>Poils de chauve: 20 unités</p>
+                                    <p>Sang de licorne: 1 litre</p>
+                                    <p>Chocolat noir: 200 grammes</p>
+                                    <p>Farine de l'olympe: 500 grammes</p>
 
-                            </div>
-                    </div>
+                                </div>
+                        </div>
 
-                    <div class="colonne2 colonne">
-                        <h2>Preparation</h2>
+                        <div class="colonne2 colonne">
+                            <h2>Preparation</h2>
 
-                            <table class="preparation">
-                                <tr>
-                                    <td><p class="numero">1</p></td>
-                                    <td class="format">Jeter les poils de chauve (car ça sert à rien</td>                                        </tr>
+                                <table class="preparation">
+                                    <tr>
+                                        <td><p class="numero">1</p></td>
+                                        <td class="format">Jeter les poils de chauve (car ça sert à rien</td>                                        </tr>
 
-                                <tr>                             
-                                    <td><p class="numero">2</p></td>
-                                    <td class="format">Melanger le sang avec la farine pendant un gogol de secondes</td>                                    
-                                </tr>
+                                    <tr>                             
+                                        <td><p class="numero">2</p></td>
+                                        <td class="format">Melanger le sang avec la farine pendant un gogol de secondes</td>                                    
+                                    </tr>
 
-                                <tr>
-                                    <td><p class="numero">3</p></td>
-                                    <td class="format">non</td>
-                                </tr>
+                                    <tr>
+                                        <td><p class="numero">3</p></td>
+                                        <td class="format">non</td>
+                                    </tr>
 
-                                <tr>
-                                    <td><p class="numero">4</p></td>
-                                    <td class="format">Ajouter le chocolat melangé avec l'elixir toujours en remouant</td>
-                                </tr>
+                                    <tr>
+                                        <td><p class="numero">4</p></td>
+                                        <td class="format">Ajouter le chocolat melangé avec l'elixir toujours en remouant</td>
+                                    </tr>
 
-                                <tr>
-                                    <td><p class="numero">5</p></td>
-                                    <td class="format">Verser le melange dans un recipient et mettez le au four pendant 1 heure et demi</td>
-                                </tr>
-                               
-                            </table>
+                                    <tr>
+                                        <td><p class="numero">5</p></td>
+                                        <td class="format">Verser le melange dans un recipient et mettez le au four pendant 1 heure et demi</td>
+                                    </tr>
+                                
+                                </table>
+                        </div>
                     </div>
                 <!-- Table
                 tr: table row (lignes)
